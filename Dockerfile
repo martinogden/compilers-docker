@@ -8,7 +8,7 @@ RUN apt-get update \
 
 RUN mkdir /usr/class \
     && cd /usr/class \
-    && wget http://spark-university.s3.amazonaws.com/stanford-compilers/vm/student-dist.tar.gz \
+    && wget https://s3-us-west-1.amazonaws.com/prod-edx/Compilers/Misc/student-dist.tar.gz \
     && tar -xf student-dist.tar.gz \
     && rm student-dist.tar.gz
 
